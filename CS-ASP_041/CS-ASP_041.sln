@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-ASP_041", "CS-ASP_041\CS-ASP_041.csproj", "{272E1DAC-DA4B-47F7-BE23-3071765E6782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroMonster", "HeroMonster\HeroMonster.csproj", "{5217D91E-E6FE-44DC-89A8-E7F3C0396685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{272E1DAC-DA4B-47F7-BE23-3071765E6782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272E1DAC-DA4B-47F7-BE23-3071765E6782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272E1DAC-DA4B-47F7-BE23-3071765E6782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272E1DAC-DA4B-47F7-BE23-3071765E6782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5217D91E-E6FE-44DC-89A8-E7F3C0396685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5217D91E-E6FE-44DC-89A8-E7F3C0396685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5217D91E-E6FE-44DC-89A8-E7F3C0396685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5217D91E-E6FE-44DC-89A8-E7F3C0396685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

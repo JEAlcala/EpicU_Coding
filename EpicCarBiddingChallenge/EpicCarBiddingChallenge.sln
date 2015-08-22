@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonPart", "EpicCarBiddingChallenge\CommonPart.csproj", "{0B29F3DA-47C8-4FC2-9CBB-06E25FF75AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarForm", "CarForm\CarForm.csproj", "{6E510D6D-E3C4-49E5-ABEF-28741BC8D3D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm", "WebForm\WebForm.csproj", "{EAD1475C-207D-4774-A9CF-D0EC9A8B79EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B29F3DA-47C8-4FC2-9CBB-06E25FF75AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B29F3DA-47C8-4FC2-9CBB-06E25FF75AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B29F3DA-47C8-4FC2-9CBB-06E25FF75AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B29F3DA-47C8-4FC2-9CBB-06E25FF75AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E510D6D-E3C4-49E5-ABEF-28741BC8D3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E510D6D-E3C4-49E5-ABEF-28741BC8D3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E510D6D-E3C4-49E5-ABEF-28741BC8D3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E510D6D-E3C4-49E5-ABEF-28741BC8D3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD1475C-207D-4774-A9CF-D0EC9A8B79EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD1475C-207D-4774-A9CF-D0EC9A8B79EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD1475C-207D-4774-A9CF-D0EC9A8B79EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD1475C-207D-4774-A9CF-D0EC9A8B79EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿
+@model EpicVitamins.Models.Order
+@{
+    ViewBag.Title = "Place Your Order";
+} 
+  <h2> Place your oders at Epic Vitamins</h2>
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class=" col-sm-6 form.group">
+        <label>First Name </label>
+        @Html.DisplayTextFor(m=> m.FirstName, new { @class= "form-control", placeholder = "enter your first name"})
+    </div>
+        <div class="row">
+            <div class=" col-sm-5 form.group">
+                <label>Last Name </label>
+                @Html.DisplayTextFor(m => m.LastName, new { @class = "form-control", placeholder = "enter your last name" })
+            </div>
+            <div class="row">
+                <div class=" col-sm-4 form.group">
+                    <label>Address </label>
+                    @Html.DisplayTextFor(m => m.Address, new { @class = "form-control", placeholder = "enter your address" })
+                </div>
+                <div class="row">
+                    <div class=" col-sm-3 form.group">
+                        <label>City </label>
+                        @Html.DisplayTextFor(m => m.City, new { @class = "form-control", placeholder = "enter your city" })
+                    </div>
+                    <div class="row">
+                        <div class=" col-sm-2 form.group">
+                            <label>State </label>
+                            @Html.DisplayTextFor(m => m.State, new { @class = "form-control", placeholder = "enter your state" })
+                        </div>
+                        <div class="row">
+                            <div class=" col-sm-1 form.group">
+                                <label>Zip</label>
+                                @Html.DisplayTextFor(m => m.Zip, new { @class = "form-control", placeholder = "enter your zip" })
+                            </div>
+
+
+
+
+
+                            }

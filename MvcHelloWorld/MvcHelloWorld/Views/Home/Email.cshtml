@@ -1,0 +1,32 @@
+﻿@model MvcHelloWorld.ViewModels.SendEmailViewModel
+
+@{
+    ViewBag.Title = "Email";
+}
+
+<h2>Email</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>Email:</td>
+    
+     <td>Email: @Html.TextBoxFor(m => m.ToEmail)</td>
+     </tr>
+      <tr>
+        <td>Subject: @Html.TextBoxFor(j => j.Subject)</td>
+          </tr>
+           <tr>
+             <td>Body: @Html.TextBoxFor(m => m.Body)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>    
+            <input type="submit"value="Send Email" />
+    
+    
+    
+    
+   
+}
